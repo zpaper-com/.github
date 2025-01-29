@@ -70,8 +70,8 @@ graph TD
     C --> D[z-any-auth]
     C --> E[Zippi]
     C --> F[Salesforce]
-    E --> G[KB]
-    G --> H[MyFileForce]
+    A --> G[KB]
+    A --> H[MyFileForce]
 ```
 
 ## Integration Points
