@@ -32,27 +32,27 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 ### 📋 zippi
 **Priority**: 🔴 High - Authentication Security & Legacy Bug Workarounds
 
-**File**: [`src/main/java/com/zpaper/security/JwtAuthenticationFilter.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/security/JwtAuthenticationFilter.java)
-- [**Line 206**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/security/JwtAuthenticationFilter.java#L206): `This is a terrible hack that I only put in so that Andrew could give his demo.`
+**File**: [`src/main/java/com/zpaper/security/JwtAuthenticationFilter.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/security/JwtAuthenticationFilter.java)
+- [**Line 206**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/security/JwtAuthenticationFilter.java#L206): `This is a terrible hack that I only put in so that Andrew could give his demo.`
 
-**File**: [`src/main/java/com/zpaper/security/AgentAuthenticationFilter.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/security/AgentAuthenticationFilter.java)
-- [**Line 229**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/security/AgentAuthenticationFilter.java#L229): `This is a terrible hack that I only put in so that Andrew could give his demo.`
+**File**: [`src/main/java/com/zpaper/security/AgentAuthenticationFilter.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/security/AgentAuthenticationFilter.java)
+- [**Line 229**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/security/AgentAuthenticationFilter.java#L229): `This is a terrible hack that I only put in so that Andrew could give his demo.`
 
-**File**: [`src/main/java/com/zpaper/workflow/Document.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/workflow/Document.java)
-- [**Line 2487**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/workflow/Document.java#L2487): `TODO Refactor into common utility`
-- [**Line 2638**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/workflow/Document.java#L2638): `TODO Refactor all generateBaseFileName methods into common class`
+**File**: [`src/main/java/com/zpaper/workflow/Document.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/workflow/Document.java)
+- [**Line 2487**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/workflow/Document.java#L2487): `TODO Refactor into common utility`
+- [**Line 2638**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/workflow/Document.java#L2638): `TODO Refactor all generateBaseFileName methods into common class`
 
-**File**: [`src/main/java/com/zpaper/model/WddataHolder.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/model/WddataHolder.java)
-- [**Line 329**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/model/WddataHolder.java#L329): `BUG ALERT: If the tagName returns a string or map, we are done!`
+**File**: [`src/main/java/com/zpaper/model/WddataHolder.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/model/WddataHolder.java)
+- [**Line 329**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/model/WddataHolder.java#L329): `BUG ALERT: If the tagName returns a string or map, we are done!`
 
-**File**: [`src/main/java/com/zpaper/data/SnippetRepositoryImpl.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java)
-- [**Lines 62**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L62), [**97**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L97), [**371**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L371), [**427**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L427), [**589**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L589): Multiple references to "Working around legacy bug"
+**File**: [`src/main/java/com/zpaper/data/SnippetRepositoryImpl.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java)
+- [**Lines 62**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L62), [**97**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L97), [**371**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L371), [**427**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L427), [**589**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/data/SnippetRepositoryImpl.java#L589): Multiple references to "Working around legacy bug"
 
-**File**: [`src/main/java/com/zpaper/allfiles/AllFiles.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/allfiles/AllFiles.java)
-- [**Lines 57**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/allfiles/AllFiles.java#L57), [**60**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/allfiles/AllFiles.java#L60): Detailed refactoring proposals for AllFiles to incorporate S3 and Salesforce
+**File**: [`src/main/java/com/zpaper/allfiles/AllFiles.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/allfiles/AllFiles.java)
+- [**Lines 57**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/allfiles/AllFiles.java#L57), [**60**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/allfiles/AllFiles.java#L60): Detailed refactoring proposals for AllFiles to incorporate S3 and Salesforce
 
-**File**: [`src/main/java/com/zpaper/utility/Decolorizer.java`](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/utility/Decolorizer.java)
-- [**Line 74**](https://github.com/zpaper-com/zippi/blob/main/src/main/java/com/zpaper/utility/Decolorizer.java#L74): `Hack to support old style logger.setLevel();.  Perhaps this should be done through JMX???`
+**File**: [`src/main/java/com/zpaper/utility/Decolorizer.java`](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/utility/Decolorizer.java)
+- [**Line 74**](https://github.com/zpaper-com/zippi/blob/develop17/src/main/java/com/zpaper/utility/Decolorizer.java#L74): `Hack to support old style logger.setLevel();.  Perhaps this should be done through JMX???`
 
 **Impact**: Critical authentication hacks for demo purposes still in production code, multiple legacy bug workarounds, and significant refactoring opportunities.
 
@@ -61,12 +61,12 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 ### 🏥 EMR
 **Priority**: 🔴 High - Security & Configuration Hacks
 
-**File**: [`zSend.html`](https://github.com/zpaper-com/EMR/blob/main/zSend.html)
-- [**Line 162**](https://github.com/zpaper-com/EMR/blob/main/zSend.html#L162): `//ERS220614 HACK TODO CRN220614 custom setting`
-- [**Line 370**](https://github.com/zpaper-com/EMR/blob/main/zSend.html#L370): `var zHost=""; //https://zp50.zpaper.com"; //ERS230904 TERRIBLE HACK`
-- [**Line 379**](https://github.com/zpaper-com/EMR/blob/main/zSend.html#L379): `sfType="Account"; //ERS230904 hack aways`
-- [**Line 387**](https://github.com/zpaper-com/EMR/blob/main/zSend.html#L387): `var xtraFilter = null; //ERS230904 HACK EOJ`
-- [**Line 688**](https://github.com/zpaper-com/EMR/blob/main/zSend.html#L688): `//ERS210824 HACK postUrl="https://gw.zpaper.com/kb/jsp/SF_sendFax.jsp";`
+**File**: [`zSend.html`](https://github.com/zpaper-com/EMR/blob/master/zSend.html)
+- [**Line 162**](https://github.com/zpaper-com/EMR/blob/master/zSend.html#L162): `//ERS220614 HACK TODO CRN220614 custom setting`
+- [**Line 370**](https://github.com/zpaper-com/EMR/blob/master/zSend.html#L370): `var zHost=""; //https://zp50.zpaper.com"; //ERS230904 TERRIBLE HACK`
+- [**Line 379**](https://github.com/zpaper-com/EMR/blob/master/zSend.html#L379): `sfType="Account"; //ERS230904 hack aways`
+- [**Line 387**](https://github.com/zpaper-com/EMR/blob/master/zSend.html#L387): `var xtraFilter = null; //ERS230904 HACK EOJ`
+- [**Line 688**](https://github.com/zpaper-com/EMR/blob/master/zSend.html#L688): `//ERS210824 HACK postUrl="https://gw.zpaper.com/kb/jsp/SF_sendFax.jsp";`
 
 **Impact**: Multiple configuration hacks that need proper implementation.
 
@@ -75,15 +75,15 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 ### 🤖 agents
 **Priority**: 🔴 High - Authentication Security
 
-**File**: [`src/main/webapp/index.jsp`](https://github.com/zpaper-com/agents/blob/main/src/main/webapp/index.jsp)
-- [**Line 64**](https://github.com/zpaper-com/agents/blob/main/src/main/webapp/index.jsp#L64): `//CMA150216 No time to do this properly with a container Realm so I'm doing this hack.`
+**File**: [`src/main/webapp/index.jsp`](https://github.com/zpaper-com/agents/blob/develop17/src/main/webapp/index.jsp)
+- [**Line 64**](https://github.com/zpaper-com/agents/blob/develop17/src/main/webapp/index.jsp#L64): `//CMA150216 No time to do this properly with a container Realm so I'm doing this hack.`
 
-**File**: [`src/main/webapp/AdminCookie.jspf`](https://github.com/zpaper-com/agents/blob/main/src/main/webapp/AdminCookie.jspf)
-- [**Line 6**](https://github.com/zpaper-com/agents/blob/main/src/main/webapp/AdminCookie.jspf#L6): `The purpose of this hack is to provide a quick way to set and retrieve zPaper Admin Authentication cookies.`
+**File**: [`src/main/webapp/AdminCookie.jspf`](https://github.com/zpaper-com/agents/blob/develop17/src/main/webapp/AdminCookie.jspf)
+- [**Line 6**](https://github.com/zpaper-com/agents/blob/develop17/src/main/webapp/AdminCookie.jspf#L6): `The purpose of this hack is to provide a quick way to set and retrieve zPaper Admin Authentication cookies.`
 
-**File**: [`src/main/java/com/zpaper/folderAgent/FaxItMonopond.java`](https://github.com/zpaper-com/agents/blob/main/src/main/java/com/zpaper/folderAgent/FaxItMonopond.java) - Contains FIXME markers
-**File**: [`src/main/java/com/zpaper/folderAgent/PopIt.java`](https://github.com/zpaper-com/agents/blob/main/src/main/java/com/zpaper/folderAgent/PopIt.java) - Contains TODO markers
-**File**: [`src/main/java/com/zpaper/folderAgent/ConvertIt.java`](https://github.com/zpaper-com/agents/blob/main/src/main/java/com/zpaper/folderAgent/ConvertIt.java) - Contains TODO markers
+**File**: [`src/main/java/com/zpaper/folderAgent/FaxItMonopond.java`](https://github.com/zpaper-com/agents/blob/develop17/src/main/java/com/zpaper/folderAgent/FaxItMonopond.java) - Contains FIXME markers
+**File**: [`src/main/java/com/zpaper/folderAgent/PopIt.java`](https://github.com/zpaper-com/agents/blob/develop17/src/main/java/com/zpaper/folderAgent/PopIt.java) - Contains TODO markers
+**File**: [`src/main/java/com/zpaper/folderAgent/ConvertIt.java`](https://github.com/zpaper-com/agents/blob/develop17/src/main/java/com/zpaper/folderAgent/ConvertIt.java) - Contains TODO markers
 
 **Impact**: Authentication system using temporary hacks instead of proper security implementation.
 
@@ -104,12 +104,12 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 ### 📄 zpaper-sprkz
 **Priority**: 🟡 Medium - Feature Implementation
 
-**File**: [`src/client/resources/questionBundle.js`](https://github.com/zpaper-com/zpaper-sprkz/blob/main/src/client/resources/questionBundle.js)
-- [**Line 1105**](https://github.com/zpaper-com/zpaper-sprkz/blob/main/src/client/resources/questionBundle.js#L1105): `/// TODO, how/where to store? extension?`
+**File**: [`src/client/resources/questionBundle.js`](https://github.com/zpaper-com/zpaper-sprkz/blob/develop/src/client/resources/questionBundle.js)
+- [**Line 1105**](https://github.com/zpaper-com/zpaper-sprkz/blob/develop/src/client/resources/questionBundle.js#L1105): `/// TODO, how/where to store? extension?`
 
-**File**: [`src/client/resources/pdf-lib.js`](https://github.com/zpaper-com/zpaper-sprkz/blob/main/src/client/resources/pdf-lib.js)
-- [**Line 5709**](https://github.com/zpaper-com/zpaper-sprkz/blob/main/src/client/resources/pdf-lib.js#L5709): `// TODO: may be {}`
-- [**Line 6241**](https://github.com/zpaper-com/zpaper-sprkz/blob/main/src/client/resources/pdf-lib.js#L6241): `// TODO: 2 or 1 bytes?`
+**File**: [`src/client/resources/pdf-lib.js`](https://github.com/zpaper-com/zpaper-sprkz/blob/develop/src/client/resources/pdf-lib.js)
+- [**Line 5709**](https://github.com/zpaper-com/zpaper-sprkz/blob/develop/src/client/resources/pdf-lib.js#L5709): `// TODO: may be {}`
+- [**Line 6241**](https://github.com/zpaper-com/zpaper-sprkz/blob/develop/src/client/resources/pdf-lib.js#L6241): `// TODO: 2 or 1 bytes?`
 
 **Impact**: Incomplete storage implementation and PDF handling edge cases.
 
@@ -118,19 +118,19 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 ### 🔧 zippi_testing
 **Priority**: 🟡 Medium - Test Infrastructure
 
-**File**: [`src/test/java/com/zpaper/service/ItemsApiHelperTest.java`](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/service/ItemsApiHelperTest.java)
-- [**Line 220**](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/service/ItemsApiHelperTest.java#L220): `// TODO: Code issue identified. searching by 24hour period rather than everything within the day`
+**File**: [`src/test/java/com/zpaper/service/ItemsApiHelperTest.java`](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/service/ItemsApiHelperTest.java)
+- [**Line 220**](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/service/ItemsApiHelperTest.java#L220): `// TODO: Code issue identified. searching by 24hour period rather than everything within the day`
 
-**File**: [`src/test/java/com/zpaper/service/BaseTest.java`](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/service/BaseTest.java)
-- [**Line 108**](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/service/BaseTest.java#L108): `// TODO: build a mock Deployment object`
+**File**: [`src/test/java/com/zpaper/service/BaseTest.java`](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/service/BaseTest.java)
+- [**Line 108**](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/service/BaseTest.java#L108): `// TODO: build a mock Deployment object`
 
-**File**: [`src/test/java/com/zpaper/config/TestConfiguration.java`](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/config/TestConfiguration.java)
-- [**Line 178**](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/config/TestConfiguration.java#L178): `// TODO Auto-generated catch block`
-- [**Line 205**](https://github.com/zpaper-com/zippi_testing/blob/main/src/test/java/com/zpaper/config/TestConfiguration.java#L205): `// TODO Auto-generated catch block`
+**File**: [`src/test/java/com/zpaper/config/TestConfiguration.java`](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/config/TestConfiguration.java)
+- [**Line 178**](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/config/TestConfiguration.java#L178): `// TODO Auto-generated catch block`
+- [**Line 205**](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/test/java/com/zpaper/config/TestConfiguration.java#L205): `// TODO Auto-generated catch block`
 
-**File**: [`src/main/webapp/resources/core/js/jsFunctions.js`](https://github.com/zpaper-com/zippi_testing/blob/main/src/main/webapp/resources/core/js/jsFunctions.js)
-- [**Line 216**](https://github.com/zpaper-com/zippi_testing/blob/main/src/main/webapp/resources/core/js/jsFunctions.js#L216): `// ToDo: handle not done (more records to retrieve) -- nextrecordsurl field will hold the REST url to call`
-- [**Line 434**](https://github.com/zpaper-com/zippi_testing/blob/main/src/main/webapp/resources/core/js/jsFunctions.js#L434): `let zpServer = 'gw.zpaper.com'; //TODO: we need to change this to localhost, NOTE: zippi behaves differently for localhost calls`
+**File**: [`src/main/webapp/resources/core/js/jsFunctions.js`](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/main/webapp/resources/core/js/jsFunctions.js)
+- [**Line 216**](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/main/webapp/resources/core/js/jsFunctions.js#L216): `// ToDo: handle not done (more records to retrieve) -- nextrecordsurl field will hold the REST url to call`
+- [**Line 434**](https://github.com/zpaper-com/zippi_testing/blob/CASE/108184/insert-error-page-if-vf-page-cannot-be-pulled/src/main/webapp/resources/core/js/jsFunctions.js#L434): `let zpServer = 'gw.zpaper.com'; //TODO: we need to change this to localhost, NOTE: zippi behaves differently for localhost calls`
 
 **Impact**: Test infrastructure needs improvement, configuration issues need resolution.
 
