@@ -100,20 +100,6 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 
 ---
 
-### 🏗️ HookHaven
-**Priority**: 🟡 Medium - AWS Infrastructure Setup
-
-**File**: `cdk/lib/app-stack.ts`
-- **Line 48**: `// TODO: Configure ALB with proper health checks and routing`
-- **Line 52**: `// TODO: Set up Fargate service with proper networking`
-
-**File**: `backend/src/index.ts`
-- **Line 23**: `// TODO: Implement proper error handling`
-- **Line 45**: `// TODO: Add request validation middleware`
-
-**Impact**: Infrastructure setup incomplete, needs proper AWS configuration.
-
----
 
 ### 📄 zpaper-sprkz
 **Priority**: 🟡 Medium - Feature Implementation
@@ -195,17 +181,6 @@ This document contains a comprehensive scan of all zpaper-com repositories for c
 - **Line 203**: `// TODO: Implement proper session management`
 
 **Impact**: Authentication service needs proper configuration management.
-
----
-
-### 🎯 ZerviceHub
-**Priority**: 🟡 Medium - Documentation & API
-
-**File**: `server/index.js`
-- **Line 78**: `// TODO: Implement proper API versioning`
-- **Line 112**: `// TODO: Add rate limiting middleware`
-
-**Impact**: Service hub needs proper API management features.
 
 ---
 
