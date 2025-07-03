@@ -6,7 +6,7 @@
 set -e
 
 ALLREPOS_DIR="/home/shawnstorie/allrepos"
-EXCLUDE_REPOS=(".github" "Dumont" "HookHaven" "RedReviews" "zippier")
+EXCLUDE_REPOS=(".github")
 TODO_FILE="${ALLREPOS_DIR}/.github/TODO.md"
 COMMENT_MARKERS=("TODO" "FIXME" "HACK" "XXX" "BUG" "DEPRECATED" "REVIEW" "NOTE" "WARNING")
 
